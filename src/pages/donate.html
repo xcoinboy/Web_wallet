@@ -1,0 +1,33 @@
+<div id="app" class="body-root" v-cloak="">
+	<div class="body-header" >
+		<div class="header-title">
+			<i class="fa fa-heart" aria-hidden="true"></i> {{ $t("donatePage.title") }}
+		</div>
+		<div class="header-subtitle" >
+			{{ $t("donatePage.subtitle") }}
+		</div>
+	</div>
+	<div class="body-content" >
+		<div class="panel">
+			<div class="body" >
+				<div class="header-title" >{{ $t("donatePage.webwalletBlock.title") }}</div>
+                <div class="content">
+                    <span v-html="$t('donatePage.webwalletBlock.content')"></span>
+                    <b>Urbancash:</b> <a href="#send?address=URBCLq1J6fneCK43afgTZHfTHhfJZxkKAP2qzUgmEHx5D361fxxigNPc1eAEDxhfEtVvrw9wHQBEdMYohYUVtRZo9ChujeMkgA">URBCLq1J6fneCK43afgTZHfTHhfJZxkKAP2qzUgmEHx5D361fxxigNPc1eAEDxhfEtVvrw9wHQBEdMYohYUVtRZo9ChujeMkgA</a></span><br />
+                    <b>Monero: </b>43vKbCPA3aoVexR8bdF6sbTu8a4pLfuWXJLGZiRCQB2yLFCEc2HCNnWDuk24EDFgpbi7BFpksSSt5Y5qnuyw4sCoEvBi5mz<br />
+                    <b>Bitcoin: </b>bc1qjzphndh7c57f46ykd7wneq2qqsluvuej27qj0r<br />
+                </div>
+			</div>
+		</div>
+		<div class="panel inline">
+			<div class="body" >
+				<div class="header-title" >{{ $t("donatePage.devFundBlock.title") }}</div>
+                <div class="content">
+                    <span v-html="$t('donatePage.devFundBlock.content')"></span><br />
+                    <a href="#send?address=URBCJ4LfpQdTa3xx6mSW43bpMitZi2NEA5RRvXfx837zhSrHx5VEsGXavMmJSEA22rRVNegujGuFD9SauX9A2hDX11JmWDHXCk">URBCJ4LfpQdTa3xx6mSW43bpMitZi2NEA5RRvXfx837zhSrHx5VEsGXavMmJSEA22rRVNegujGuFD9SauX9A2hDX11JmWDHXCk</a><br /> 
+                    
+                </div>
+			</div>
+		</div>
+	</div>
+</div>

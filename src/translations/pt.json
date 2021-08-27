@@ -1,0 +1,502 @@
+{
+  "website":{
+	"title":"Carteira Urbancash",
+	"description":"Carteira oficial online para moeda Urbancash - totalmente gerenciada em seu navegador para segurança ideal"
+  },
+  "messages": {
+	"menu": {
+	  "home": "Home",
+	  "account": "Conta",
+	  "send": "Enviar",
+	  "receive": "Receber",
+	  "export": "Exportar",
+	  "donate": "Donativos",
+	  "settings": "Defenições",
+	  "disconnect": "Disconnectar",
+	  "network": "Estado Rede",
+	  "mining": "Mineração"
+	},
+	"global": {
+	  "loading": "Loading",
+	  "disableSecurity":"Desative esta segurança, eu entendo o risco",
+	  "passwordInvalidRequirements":"A senha precisa de pelo menos 8 caracteres - 1 letra maiúscula, 1 letra minúscula, um número e um caractere especial",
+	  "passwordConfirmationNotMatching":"A senha não corresponde à primeira senha que você escreveu",
+	  "download":"Download",
+	  "newVersionModal":{
+		"title":"Uma nova versão está disponível!",
+		"content":"Quer recarregar para carregar a nova versão?",
+		"confirmText":"Sim",
+		"cancelText":"Voltar"
+	  },
+	  "openWalletModal":{
+		"title":"Senha da carteira",
+		"confirmText":"Abrir",
+		"cancelText":"Cancelar"
+	  },
+	  "invalidPasswordModal":{
+		"title":"Oops...",
+		"content":"Sua senha é inválida",
+		"confirmText":"OK"
+	  },
+	  "invalidMnemonicModal":{
+		"title":"Oops...",
+		"content":"A frase mnemônica é inválida",
+		"confirmText":"OK"
+	  },
+	  "passwordNotComplexEnoughModal":{
+		"title":"A senha não é complexa o suficiente",
+		"confirmText":"OK"
+	  },
+	  "permissionRequiredForCameraModal":{
+		"title":"Oops...",
+		"content":"A permissão para acessar sua câmera é necessária para escanear o código QR",
+		"confirmText":"OK"
+	  }
+	},
+	"bottom": {
+	  "termsOfUse": "Termos de uso",
+	  "privacyPolicy": "Política de Privacidade",
+	  "support": "Suporte",
+	  "donate": "Doar",
+	  "network": "Estado Rede",
+	  "miningPool": "Pool Mineração",
+	  "github": "GitLab"
+	},
+	"homepage": {
+	  "mainTitle": "Bem-vindo a Carteira da Urbancash ",
+	  "tagLine": "A maneira mais simples de usar Urbancash - a qualquer hora e em qualquer lugar ",
+	  "actions": {
+		"loadWallet": "Carregar minha Carteira.",
+		"importWallet": "Importar Carteira.",
+		"create": "Criar",
+		"createWallet": "Criar Carteira"
+	  },
+	  "notes": {
+		"secure": {
+		  "title": "Seguro",
+		  "description": "Totalmente criptografado!"
+		},
+		"fast": {
+		  "title": "Acessível",
+		  "description": "Use em qualquer hora e em qualquer lugar!"
+		},
+		"technology": {
+		  "title": "Do lado do cliente",
+		  "description": "Chaves de segurança no seu dispositivo!"
+		},
+		"openSource": {
+		  "title": "Código aberto",
+		  "description": "Verifique no GitLab!"
+		}
+	  }
+	},
+	"accountPage": {
+	  "title": "Conta",
+	  "subtitle": "Visão geral da sua conta e histórico de transações",
+	  "synchronizingBlock": {
+		"text": "Sincronizando..."
+	  },
+	  "balanceBlock": {
+		"title": "Seu Saldo",
+		"unlocked": "Desbloqueado"
+	  },
+	  "historyBlock": {
+		"title": "Histórico de transações",
+		"pendingTxStatus": "Pendente",
+		"emptyWallet": "No momento, você não tem fundos nesta carteira.",
+		"waitSync": "Por favor, espere até que a carteira seja atualizada ",
+		"beReallyPatient": "A configuração inicial pode levar algum tempo ... ",
+		"getCoinAddress": "Receber URBC"
+	  },
+	  "txDetails":{
+		"title":"Detalhes da transação",
+		"txHash":"Tx hash",
+		"feesOnTx":"Tx fees",
+		"blockHeight":"Altura do bloco",
+		"paymentId":"ID de pagamento ",
+		"txPrivKey":"Chave privada de transação"
+	  }
+	},
+	"changeWalletPasswordPage":{
+	  "title":"Alterar palavra Pass",
+	  "oldPassword":{
+		"label":"Palavra Pass Antiga",
+		"invalid":"Palavra Pass Invalida!"
+	  },
+	  "newPassword":{
+		"label":"Escolha uma nova Palavra Pass para proteger sua carteira"
+	  },
+	  "newPasswordConfirm":{
+		"label":"Confirme a nova Palavra Pass"
+	  },
+	  "confirm":"Mudar a Palavra Pass",
+	  "modalSuccess":{
+		"title":"Palavra Pass alterada!",
+		"confirmText":"OK"
+	  }
+	},
+	"createWalletPage":{
+	  "generatingStep":{
+		"title":"Sua carteira está sendo gerada ...",
+		"subtitle":"Está quase pronto",
+		"waitingMessage":"Gerando sua carteira ..."
+	  },
+	  "finalizationStep":{
+		"title":"Isso foi simples. Sua conta está pronta!",
+		"subtitle":"Esteja pronto para usar o Urbancash como você nunca fez",
+		"passwordSelectionBlock":{
+		  "label":"Proteja sua carteira"
+		},
+		"passwordConfirmBlock":{
+		  "label":"Confirme a palavra pass"
+		},
+		"validPassword":"Use esta palavra pass",
+		"backupBlock":{
+		  "title":"Salve suas credenciais privadas para recuperação.",
+		  "option1":"Opção 1:  ",
+		  "option2":"Opção 2:  ",
+		  "titlePdf":"Download da copia em PDF",
+		  "titleManualWrite":"Anote minhas chaves",
+		  "privateKeys":"Chave privada",
+		  "mnemonicPhrase":"Frase mnemônica ",
+		  "separatorManualMethodsSolution":" ou ",
+		  "confirmManuallyWritten":"Eu escrevi minha frase semente",
+		  "warningMessage":"**Não o perca! ** Ele não pode ser recuperado se você o perder. <br/> ** Não compartilhe! ** Seus fundos serão roubados se você usar este arquivo ou se espalhar em um site malicioso / de phishing. <Br /> ** Faça um backup! ** Proteja-o como os milhões de euros que um dia pode valer.<br/>",
+		  "finishButton":"Eu entendo. Prosseguir."
+		}
+	  },
+	  "disclaimerBlock":{
+		"title":"Risco de usar Carteira Urbancash",
+		"content":"A Carteira Urbancash é uma interface baseada na web. Funciona sem executar um nó completo de Urbancash . <br/> Recomendamos que você trate a Carteira Urbancash como trataria sua carteira real."
+	  }
+	},
+	"donatePage":{
+	  "title":"Doar",
+	  "subtitle":"Ajude a financiar o desenvolvimento e pagar as contas",
+	  "webwalletBlock":{
+		"title":"Carteira Web",
+		"content":"Se você quiser ajudar a pagar pelos servidores, apoiar o desenvolvimento de novos recursos e gostar deste aplicativo, considere uma doação: <br/><br/>"
+	  },
+	  "devFundBlock":{
+		"title":"Urbancash fundo Desenvolvimento",
+		"content":"Para ajudar Urbancash, você pode doar nestes endereços"
+	  }
+	},
+	"supportPage":{
+	  "title":"Suporte",
+	  "subtitle":"Estamos aqui para ajudar!",
+	  "getInTouchBlock":{
+		"title":"Vamos entrar em contato!",
+		"content":"Você tem ideias ou comentários que podem nos ajudar a melhorar a carteira? Contate-Nos!",
+		"discord":"Canal Urbancash Discord"
+	  }
+	},
+	"networkPage":{
+	  "title":"Estado Rede",
+	  "subtitle":"Insights sobre a rede Urbancash",
+	  "statsBlock":{
+		"connectNode": "Conectado ao nó",
+		"hashrate":"hashrate rede",
+		"height":"Ultimo Bloco Recebido",
+		"difficulty":"Dificuldade de rede ",
+		"lastTimeBlock":"Tempo Do Último bloco encontrado",
+		"lastReward":"Recompensa do último bloco"
+	  }
+	},
+	"sendPage":{
+	  "title":"Enviar URBC",
+	  "sendBlock":{
+		"address":{
+		  "label":"Endereço URBC de destino",
+		  "placeholder":"Escreva o endereço para onde deseja enviar fundos",
+		  "invalid":"O endereço de destino é inválido",
+		  "fundsTo":"Os fundos serão enviados para",
+		  "receiver":"Receptor",
+		  "description":"Descrição"
+		},
+		"amount":{
+		  "label":"Quantidade a enviar",
+		  "invalid":"O valor é inválido"
+		},
+		"paymentId":{
+		  "label":"ID de pagamento (opcional)",
+		  "invalid":"O ID do pagamento é inválido. O comprimento deve ser 16 ou 64 caracteres"
+		},
+		"sendButton":"Enviar",
+		"cancelButton":"Cancelar"
+	  },
+	  "qrCodeScanning":{
+		"explication":"Apresentar o código QR"
+	  },
+	  "notEnoughMoneyModal":{
+		"title":"Oops...",
+		"content":"Você não tem fundos suficientes em sua carteira para executar esta transferência!",
+		"confirmText":"OK"
+	  },
+	  "thankYouDonationModal":{
+		"title":"Obrigado por sua doação!",
+		"content":"Agradecemos sua ajuda. <br/> Esta doação ajudará a tornar Urbancash melhor",
+		"confirmText":"OK"
+	  },
+	  "transferSentModal":{
+		"title":"Transferência enviada com sucesso!",
+		"confirmText":"OK"
+	  },
+	  "transferExceptionModal":{
+		"title":"Oops...",
+		"content":"Um erro ocorreu. Relate este erro: {details}",
+		"confirmText":"OK"
+	  },
+	  "invalidAmountModal":{
+		"title":"Oops...",
+		"content":"Montante inválido",
+		"confirmText":"OK"
+	  },
+	  "creatingTransferModal":{
+		"title":"Criando transferência ... ",
+		"content":"Por favor, aguarde..."
+	  },
+	  "finalizingTransferModal":{
+		"title":"Finalizando transferência ...",
+		"content":"Por favor, aguarde..."
+	  },
+	  "confirmTransactionModal":{
+		"title":"Confirma transferência?",
+		"content":"Montante: {amount}<br/>taxas: {fees}<br/>Total: {total}",
+		"confirmText":"Confirme",
+		"cancelText":"Cancelar"
+	  },
+	  "waitingNfcModal":{
+		"title":"Esperando Nfc",
+		"content":"Aproxime-se do outro dispositivo"
+	  }
+	},
+	"receivePage":{
+	  "title":"Receber URBC",
+	  "receiveBlock":{
+		"address":{
+		  "title":"Seu endereço para receber fundos: ",
+		  "label":"Dê este endereço para receber fundos"
+		},
+		"qrCode":{
+		  "title":"Ou personalize o código QR:",
+		  "labelAmount":"Montante (opcional)",
+		  "labelRecipient":"Nome do Destinatário (opcional)",
+		  "labelDescription":"Descrição da transação (opcional)",
+		  "updateButton":"atualizar"
+		}
+	  },
+	  "qrBlock":{
+		"title":"Seu código QR personalizado"
+	  },
+	  "waitingNfcToWriteModal":{
+		"title":"Esperando Nfc",
+		"titleSuccess":"Tag Nfc escrita",
+		"content":"Aproxime a etiqueta NFC para escrever"
+	  },
+	  "nfcErrorModal":{
+		"titleInsufficientCapacity":"Capacidade de etiqueta insuficiente"
+	  }
+	},
+	"miningPage":{
+	  "title":"Mine diretamente no seu navegador ",
+	  "subtitle":"Apoie a rede minerando e seja recompensado com URBC",
+	  "parameterBlock":{
+		"title":"Parâmetros",
+		"labelDestinationAddress":"Carteira para Minerar ",
+		"labelThreads":"Numero de threads (mais = hashrate mais alto)",
+		"start":"Start",
+		"stop":"Stop"
+	  },
+	  "statisticsBlocks":{
+		"title":"Estatisticas",
+		"validShares":"Partilhas válidas ",
+		"hashrate":"Hashrate",
+		"maxHashrate":"Max Hashrate",
+		"dedicatedHardware":"Com a dedicação de software e hardware de mineração, você pode ganhar mais e ajudar a descentralizar a rede.",
+		"miningHandledBy":"Esta mineração é feita pela mineradora  centralpool."
+	  }
+	},
+	"settingsPage":{
+	  "title":"Definições",
+	  "subtitle":"Altere seus parâmetros aqui",
+	  "versionBlock":{
+		"versionNumber":"Número da versão: ",
+		"versionCode":"Código da versão: "
+	  },
+	  "settingsBlock":{
+		"speed":{
+		  "label":"Velocidade para atualizar a carteira (consumirá mais recursos) " ,
+		  "fastest":"O mais rápido",
+		  "fast":"Rápido",
+		  "medium":"Médio",
+		  "slow":"Lento"
+		},
+		"language":{
+		  "label":"Idioma"
+		},
+		"readMinerTx":{
+		  "label":"Ler transações de minerador (apenas para mineração solo)"
+		},
+		"customNode":{
+		  "label":"Usar nó personalizado"
+		},
+	    "nodeUrl":{
+		  "label":"Nó URL"
+		}
+	  },
+	  "changePasswordButton":"Alterar a senha da minha carteira",
+	  "deleteWalletButton":"Excluir minha carteira (cópia local)",
+	  "walletSettings":{
+		"creationHeight":{
+		  "label":"Altura de criação da carteira "
+		},
+		"currentScanningHeight": {
+		  "label": "Altura atual de digitalização"
+		},
+		"updateButton":"Atualizar"
+	  },
+	  "deleteWalletModal":{
+		"title":"Excluir minha carteira (cópia local)",
+		"content":"Tem certeza de que deseja REALMENTE excluir sua carteira? ",
+		"confirmText":"Sim eu tenho certeza",
+		"cancelText":"Cancelar"
+	  }
+	},
+	"importBasePage":{
+	  "parametersBlock":{
+		"title":"Parâmetros",
+		"password":{
+		  "label":"Senha para proteger sua carteira"
+		},
+		"passwordConfirm":{
+		  "label":"Confirme a senha",
+		  "invalid":"A senha não corresponde à primeira senha que você escreveu !"
+		},
+		"importHeight":{
+		  "label":"Altura do bloco para importar: "
+		}
+	  }
+	},
+	"importFromQrPage":{
+	  "title":"Importando carteira de um código QR",
+	  "subtitle":"Importar uma carteira de um backup offline",
+	  "qrCodeBlock":{
+		"title":"Código QR",
+		"startScanButton":"Comece a varredura",
+		"importButton":"Importar"
+	  },
+	  "qrScanningBlock":{
+		"title":"Apresentar o código QR"
+	  }
+	},
+	"exportPage":{
+	  "title":"Faça backup de suas credenciais",
+	  "publicAddressBlock":{
+		"title":"Seu endereço público"
+	  },
+	  "pdfBlock":{
+		"title":"PDF Backup",
+		"downloadButton":"Download"
+	  },
+	  "warningBlock":{
+		"title":"Aviso",
+		"content":"Se você optar por salvar suas chaves privadas ou sua frase mnemônica, NÃO as armazene em texto não criptografado para sua própria segurança. <br/> O arquivo é uma solução alternativa em que suas chaves são criptografadas e contém um backup de todas as suas transações para poupá-lo de uma sincronização futura."
+	  },
+	  "exportBlock":{
+		"title":"Exporte suas credenciais RAW",
+		"privateKeysButton":"Minhas chaves privadas ",
+		"mnemonicKeysButton":"minha frase mnemônica",
+		"fileButton":"Exportar para um arquivo"
+	  },
+	  "walletKeysModal":{
+		"title":"Chaves privadas",
+		"confirmText":"OK",
+		"content":"Guarde cuidadosamente essas chaves. <b>Possuí-los significa possuir os fundos associados</b> !<br/>Spend key: {privSpendKey}<br/>Private view key: {privViewKey}"
+	  },
+	  "mnemonicKeyModal":{
+		"title":"Frase mnemônica",
+		"confirmText":"OK",
+		"content":"Guarde cuidadosamente esta frase mnemônica.  <b>Possuí-lo significa possuir os fundos associados</b> ! A frase é: <br/>{mnemonic}"
+	  },
+	  "mnemonicLangSelectionModal":{
+		"title":"Em qual idioma você quer sua frase mnemônica? ",
+		"confirmText":"Exportar"
+	  }
+	},
+	"importPage":{
+	  "title":"Crie uma carteira",
+	  "subtitle":"De chaves, arquivos ou frases mnemônicas criadas anteriormente.",
+	  "chooseMethod":"Escolha o seu método de importação:",
+	  "fromKeys":"De chaves",
+	  "fromFile":"De um arquivo",
+	  "fromMnemonic":"De uma frase mnemônica",
+	  "fromQr":"De um código QR "
+	},
+	"termsOfUsePage":{
+	  "title":"Termos de uso",
+	  "subtitle":"Por favor, leia com atenção."
+	},
+	"privacyPolicyPage":{
+	  "title":"Política de Privacidade",
+	  "subtitle":"Por favor, leia com atenção."
+	},
+	"importFromFilePage":{
+	  "title":"Importando carteira de um arquivo de backup ",
+	  "subtitle":"Use seu arquivo de backup para criar uma carteira",
+	  "walletBlock":{
+		"title":"Arquivo da carteira",
+		"label":"Selecione o arquivo",
+		"importButton":"Importar"
+	  }
+	},
+	"importFromMnemonicPage":{
+	  "title":"Importando carteira de uma frase mnemônica",
+	  "subtitle":"Use sua frase para criar uma carteira",
+	  "mnemonicBlock":{
+		"title":"Frase mnemônica",
+		"mnemonic":{
+		  "label":"Frase mnemônica: 25 palavras",
+		  "invalid":"A frase mnemônica é inválida",
+		  "language":"Idioma"
+		},
+		"importButton":"Importar"
+	  }
+	},
+	"importFromKeysPage":{
+	  "title":"Importando chaves da carteira. ",
+	  "subtitle":"Use suas chaves para criar uma carteira",
+	  "parametersBlock":{
+		"viewOnlyWallet":{
+		  "label":"Você quer uma carteira somente para visualização?"
+		}
+	  },
+	  "keysBlock":{
+		"titleNotViewOnly":"Chaves da carteira",
+		"titleViewOnly":"Ver apenas carteira",
+		"privateSpend":{
+		  "label":"Chave de gastos privados"
+		},
+		"privateView":{
+		  "label":"Chave de visualização privada",
+		  "optional":"(opcional)"
+		},
+		"publicKey":{
+		  "label":"Chave pública"
+		},
+		"importButton":"Importar"
+	  }
+	}
+  },
+  "number":{
+  },
+  "date":{
+	"short": {
+	  "year": "numeric", "month": "short", "day": "numeric"
+	},
+	"long": {
+	  "year": "numeric", "month": "short", "day": "numeric",
+	  "weekday": "short", "hour": "numeric", "minute": "numeric", "hour12": true
+	}
+  }
+}

@@ -1,0 +1,9 @@
+.idea/
+*.iml
+node_modules
+src/**/*.js
+src/**/*.js.map
+!src/lib/*.js
+!src/lib/**/*.js
+src/lib/numbersLab/*.js
+debug/
